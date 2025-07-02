@@ -3,6 +3,12 @@
 </script>
 
 <svelte:head>
+  <title>{data.city.name} — {data.city.keyword} | Heynia</title>
+  <meta name="description" content={`Discover the best ${data.city.keyword} to streamline your dental practice and grow patient trust in ${data.city.name}.`} />
+</svelte:head>
+<h1>Heynia in {data.city.name}</h1>
+<p>Heynia offers {data.city.keyword} to help dentists in {data.city.name} automate workflows, improve patient experience, and boost revenue. Discover how Heynia can transform your dental practice today.</p>
+
   <title>{data.city.name} Dental Management Software | Heynia</title>
   <meta name="description" content="Grow your dental clinic in {data.city.name} with Heynia — advanced AI-powered software to automate scheduling, manage patient records, and improve patient satisfaction. Start a 14-day free trial today." />
 </svelte:head>
